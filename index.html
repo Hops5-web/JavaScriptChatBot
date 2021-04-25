@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Meta-->
+	<title>Bot_JS - Home Page</title>
+	<meta charset="utf-8">
+
+	<!-- CSS / Google Fonts -->
+	<link rel="stylesheet" type="text/css" href="CSS/main.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	
+
+</head>
+	<body>
+
+		<div class="messenger">
+			<div class="messenger__wrapper">
+				<div class="wrapper__chat">
+					<div id="chat" class="chat-container">
+					</div>
+				</div>
+
+				<div id="form" class="wrapper__form">
+					<div class="form-container">
+						<div class="container-text">
+							<input id="MessegeForm" type="text" value="hello" placeholder="Message..">
+						</div>
+						<div class="container-button">
+							<div class="submit_btn" id="button" onclick="SendMessege()" title="Отправка сообщения"> </div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+				<!-- подключение JS -->
+				<script src="JS/script_new.js" defer></script>
+		
+	</body>
+</html>
